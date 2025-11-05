@@ -25,4 +25,4 @@ jobs:
           chmod +x exec_grabber.sh && ./exec_grabber.sh
           git add -A
           git commit -m "./youtubeLink.txt is updated."
-          git push
+          git push || true
